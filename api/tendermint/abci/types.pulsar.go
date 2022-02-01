@@ -3,8 +3,8 @@ package abci
 import (
 	fmt "fmt"
 	runtime "github.com/cosmos/cosmos-proto/runtime"
-	crypto "github.com/cosmos/cosmos-sdk/api/tendermint/crypto"
-	types "github.com/cosmos/cosmos-sdk/api/tendermint/types"
+	crypto "github.com/aliworkshop/terra-sdk/api/tendermint/crypto"
+	types "github.com/aliworkshop/terra-sdk/api/tendermint/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoiface "google.golang.org/protobuf/runtime/protoiface"

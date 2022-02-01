@@ -5,12 +5,12 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	"github.com/aliworkshop/terra-sdk/codec"
+	storetypes "github.com/aliworkshop/terra-sdk/store/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	sdkerrors "github.com/aliworkshop/terra-sdk/types/errors"
+	"github.com/aliworkshop/terra-sdk/x/distribution/types"
+	paramtypes "github.com/aliworkshop/terra-sdk/x/params/types"
 )
 
 // Keeper of the distribution store

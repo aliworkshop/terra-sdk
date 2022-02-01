@@ -1,9 +1,9 @@
 package feegrant
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/msgservice"
+	"github.com/aliworkshop/terra-sdk/codec/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	"github.com/aliworkshop/terra-sdk/types/msgservice"
 )
 
 // RegisterInterfaces registers the interfaces types with the interface registry

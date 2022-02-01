@@ -8,12 +8,12 @@ import (
 
 	proto "github.com/gogo/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/authz"
+	"github.com/aliworkshop/terra-sdk/codec"
+	codectypes "github.com/aliworkshop/terra-sdk/codec/types"
+	"github.com/aliworkshop/terra-sdk/store/prefix"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	"github.com/aliworkshop/terra-sdk/types/query"
+	"github.com/aliworkshop/terra-sdk/x/authz"
 )
 
 var _ authz.QueryServer = Keeper{}

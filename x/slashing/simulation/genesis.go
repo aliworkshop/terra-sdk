@@ -8,10 +8,10 @@ import (
 	"math/rand"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/slashing/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	"github.com/aliworkshop/terra-sdk/types/module"
+	"github.com/aliworkshop/terra-sdk/types/simulation"
+	"github.com/aliworkshop/terra-sdk/x/slashing/types"
 )
 
 // Simulation parameter constants

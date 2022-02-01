@@ -5,20 +5,20 @@ import (
 	"fmt"
 	"time"
 
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	minttypes "github.com/aliworkshop/terra-sdk/x/mint/types"
 
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
-	"github.com/cosmos/cosmos-sdk/x/evidence/keeper"
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
+	"github.com/aliworkshop/terra-sdk/baseapp"
+	"github.com/aliworkshop/terra-sdk/crypto/keys/ed25519"
+	cryptotypes "github.com/aliworkshop/terra-sdk/crypto/types"
+	"github.com/aliworkshop/terra-sdk/simapp"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	authtypes "github.com/aliworkshop/terra-sdk/x/auth/types"
+	"github.com/aliworkshop/terra-sdk/x/evidence/exported"
+	"github.com/aliworkshop/terra-sdk/x/evidence/keeper"
+	"github.com/aliworkshop/terra-sdk/x/evidence/types"
 )
 
 var (

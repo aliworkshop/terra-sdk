@@ -5,15 +5,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	typestx "github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/aliworkshop/terra-sdk/client/tx"
+	"github.com/aliworkshop/terra-sdk/codec"
+	codectypes "github.com/aliworkshop/terra-sdk/codec/types"
+	cryptotypes "github.com/aliworkshop/terra-sdk/crypto/types"
+	"github.com/aliworkshop/terra-sdk/simapp"
+	"github.com/aliworkshop/terra-sdk/testutil/testdata"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	typestx "github.com/aliworkshop/terra-sdk/types/tx"
+	"github.com/aliworkshop/terra-sdk/types/tx/signing"
 )
 
 func TestAuxTxBuilder(t *testing.T) {

@@ -1,11 +1,11 @@
 package types
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/msgservice"
+	"github.com/aliworkshop/terra-sdk/codec"
+	"github.com/aliworkshop/terra-sdk/codec/types"
+	cryptocodec "github.com/aliworkshop/terra-sdk/crypto/codec"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	"github.com/aliworkshop/terra-sdk/types/msgservice"
 )
 
 // RegisterLegacyAminoCodec registers concrete types on LegacyAmino codec

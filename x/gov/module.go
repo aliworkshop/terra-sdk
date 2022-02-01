@@ -13,19 +13,19 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	govclient "github.com/cosmos/cosmos-sdk/x/gov/client"
-	"github.com/cosmos/cosmos-sdk/x/gov/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/gov/keeper"
-	"github.com/cosmos/cosmos-sdk/x/gov/simulation"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta2"
+	"github.com/aliworkshop/terra-sdk/client"
+	"github.com/aliworkshop/terra-sdk/codec"
+	codectypes "github.com/aliworkshop/terra-sdk/codec/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	"github.com/aliworkshop/terra-sdk/types/module"
+	simtypes "github.com/aliworkshop/terra-sdk/types/simulation"
+	govclient "github.com/aliworkshop/terra-sdk/x/gov/client"
+	"github.com/aliworkshop/terra-sdk/x/gov/client/cli"
+	"github.com/aliworkshop/terra-sdk/x/gov/keeper"
+	"github.com/aliworkshop/terra-sdk/x/gov/simulation"
+	"github.com/aliworkshop/terra-sdk/x/gov/types"
+	"github.com/aliworkshop/terra-sdk/x/gov/types/v1beta1"
+	"github.com/aliworkshop/terra-sdk/x/gov/types/v1beta2"
 )
 
 var (
@@ -161,7 +161,7 @@ func (am AppModule) RegisterServices(cfg module.Configurator) {
 	v1beta2.RegisterMsgServer(cfg.MsgServer(), msgServer)
 
 	// TODO Register v1beta1 query server.
-	// https://github.com/cosmos/cosmos-sdk/issues/10951
+	// https://github.com/aliworkshop/terra-sdk/issues/10951
 	v1beta2.RegisterQueryServer(cfg.QueryServer(), am.keeper)
 
 	m := keeper.NewMigrator(am.keeper)

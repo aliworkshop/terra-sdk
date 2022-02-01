@@ -6,16 +6,16 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	clienttx "github.com/cosmos/cosmos-sdk/client/tx"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta2"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	"github.com/aliworkshop/terra-sdk/client"
+	clienttx "github.com/aliworkshop/terra-sdk/client/tx"
+	cryptotypes "github.com/aliworkshop/terra-sdk/crypto/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	"github.com/aliworkshop/terra-sdk/types/tx"
+	"github.com/aliworkshop/terra-sdk/types/tx/signing"
+	authsigning "github.com/aliworkshop/terra-sdk/x/auth/signing"
+	banktypes "github.com/aliworkshop/terra-sdk/x/bank/types"
+	govtypes "github.com/aliworkshop/terra-sdk/x/gov/types/v1beta2"
+	minttypes "github.com/aliworkshop/terra-sdk/x/mint/types"
 )
 
 var initialRegens = sdk.NewCoins(sdk.NewCoin("regen", sdk.NewInt(1000)))

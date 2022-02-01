@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
+	"github.com/aliworkshop/terra-sdk/types/module"
+	simtypes "github.com/aliworkshop/terra-sdk/types/simulation"
+	"github.com/aliworkshop/terra-sdk/x/evidence/exported"
+	"github.com/aliworkshop/terra-sdk/x/evidence/types"
 )
 
 // Simulation parameter constants

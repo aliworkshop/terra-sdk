@@ -1,11 +1,11 @@
 package keeper
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/errors"
-	authmiddleware "github.com/cosmos/cosmos-sdk/x/auth/middleware"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	grouperrors "github.com/cosmos/cosmos-sdk/x/group/errors"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	"github.com/aliworkshop/terra-sdk/types/errors"
+	authmiddleware "github.com/aliworkshop/terra-sdk/x/auth/middleware"
+	"github.com/aliworkshop/terra-sdk/x/group"
+	grouperrors "github.com/aliworkshop/terra-sdk/x/group/errors"
 )
 
 // doExecuteMsgs routes the messages to the registered handlers. Messages are limited to those that require no authZ or

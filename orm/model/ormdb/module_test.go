@@ -11,10 +11,10 @@ import (
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/golden"
 
-	"github.com/cosmos/cosmos-sdk/orm/internal/testkv"
-	"github.com/cosmos/cosmos-sdk/orm/internal/testpb"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormdb"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormtable"
+	"github.com/aliworkshop/terra-sdk/orm/internal/testkv"
+	"github.com/aliworkshop/terra-sdk/orm/internal/testpb"
+	"github.com/aliworkshop/terra-sdk/orm/model/ormdb"
+	"github.com/aliworkshop/terra-sdk/orm/model/ormtable"
 )
 
 // These tests use a simulated bank keeper. Addresses and balances use

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/x/params/types/proposal"
+	"github.com/aliworkshop/terra-sdk/codec"
+	"github.com/aliworkshop/terra-sdk/x/params/types/proposal"
 )
 
 type (

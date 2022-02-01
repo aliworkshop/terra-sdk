@@ -3,13 +3,13 @@ package utils
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta2"
+	"github.com/aliworkshop/terra-sdk/client"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	sdkerrors "github.com/aliworkshop/terra-sdk/types/errors"
+	authtx "github.com/aliworkshop/terra-sdk/x/auth/tx"
+	"github.com/aliworkshop/terra-sdk/x/gov/types"
+	"github.com/aliworkshop/terra-sdk/x/gov/types/v1beta1"
+	"github.com/aliworkshop/terra-sdk/x/gov/types/v1beta2"
 )
 
 const (

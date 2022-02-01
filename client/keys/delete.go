@@ -5,9 +5,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/input"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
+	"github.com/aliworkshop/terra-sdk/client"
+	"github.com/aliworkshop/terra-sdk/client/input"
+	"github.com/aliworkshop/terra-sdk/crypto/keyring"
 )
 
 const (

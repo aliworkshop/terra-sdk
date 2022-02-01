@@ -8,8 +8,8 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/aliworkshop/terra-sdk/codec"
+	sdk "github.com/aliworkshop/terra-sdk/types"
 )
 
 // Implements Delegation interface

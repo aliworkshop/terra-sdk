@@ -3,11 +3,11 @@ package orm
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/store"
-	"github.com/cosmos/cosmos-sdk/store/gaskv"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/aliworkshop/terra-sdk/store"
+	"github.com/aliworkshop/terra-sdk/store/gaskv"
+	"github.com/aliworkshop/terra-sdk/store/types"
+	storetypes "github.com/aliworkshop/terra-sdk/store/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
 	dbm "github.com/tendermint/tm-db"
 )
 

@@ -5,12 +5,12 @@ import (
 
 	proto "github.com/gogo/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	errors "github.com/cosmos/cosmos-sdk/x/group/errors"
-	"github.com/cosmos/cosmos-sdk/x/group/internal/math"
+	"github.com/aliworkshop/terra-sdk/codec/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	sdkerrors "github.com/aliworkshop/terra-sdk/types/errors"
+	"github.com/aliworkshop/terra-sdk/types/tx"
+	errors "github.com/aliworkshop/terra-sdk/x/group/errors"
+	"github.com/aliworkshop/terra-sdk/x/group/internal/math"
 )
 
 var _ sdk.Msg = &MsgCreateGroup{}

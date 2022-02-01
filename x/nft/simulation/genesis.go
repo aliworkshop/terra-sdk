@@ -3,9 +3,9 @@ package simulation
 import (
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/nft"
+	"github.com/aliworkshop/terra-sdk/types/module"
+	simtypes "github.com/aliworkshop/terra-sdk/types/simulation"
+	"github.com/aliworkshop/terra-sdk/x/nft"
 )
 
 // genClasses returns a slice of nft class.

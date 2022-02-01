@@ -3,16 +3,16 @@ package keeper
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/internal/conv"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	"github.com/aliworkshop/terra-sdk/codec"
+	"github.com/aliworkshop/terra-sdk/internal/conv"
+	"github.com/aliworkshop/terra-sdk/store/prefix"
+	storetypes "github.com/aliworkshop/terra-sdk/store/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	sdkerrors "github.com/aliworkshop/terra-sdk/types/errors"
+	"github.com/aliworkshop/terra-sdk/types/query"
+	authtypes "github.com/aliworkshop/terra-sdk/x/auth/types"
+	"github.com/aliworkshop/terra-sdk/x/bank/types"
+	paramtypes "github.com/aliworkshop/terra-sdk/x/params/types"
 )
 
 var _ Keeper = (*BaseKeeper)(nil)

@@ -8,10 +8,10 @@ import (
 	"github.com/coinbase/rosetta-sdk-go/types"
 	"github.com/spf13/pflag"
 
-	crg "github.com/cosmos/cosmos-sdk/server/rosetta/lib/server"
+	crg "github.com/aliworkshop/terra-sdk/server/rosetta/lib/server"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/aliworkshop/terra-sdk/codec"
+	codectypes "github.com/aliworkshop/terra-sdk/codec/types"
 )
 
 // configuration defaults constants

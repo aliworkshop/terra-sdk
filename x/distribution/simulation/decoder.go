@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	"github.com/aliworkshop/terra-sdk/codec"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	"github.com/aliworkshop/terra-sdk/types/kv"
+	"github.com/aliworkshop/terra-sdk/x/distribution/types"
 )
 
 // NewDecodeStore returns a decoder function closure that unmarshals the KVPair's

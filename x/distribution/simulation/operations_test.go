@@ -8,15 +8,15 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	"github.com/cosmos/cosmos-sdk/x/distribution/simulation"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
-	distrtypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/aliworkshop/terra-sdk/simapp"
+	simappparams "github.com/aliworkshop/terra-sdk/simapp/params"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	simtypes "github.com/aliworkshop/terra-sdk/types/simulation"
+	"github.com/aliworkshop/terra-sdk/x/bank/testutil"
+	"github.com/aliworkshop/terra-sdk/x/distribution/simulation"
+	"github.com/aliworkshop/terra-sdk/x/distribution/types"
+	distrtypes "github.com/aliworkshop/terra-sdk/x/distribution/types"
+	stakingtypes "github.com/aliworkshop/terra-sdk/x/staking/types"
 )
 
 // TestWeightedOperations tests the weights of the operations.

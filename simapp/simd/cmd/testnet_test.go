@@ -9,13 +9,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	genutiltest "github.com/cosmos/cosmos-sdk/x/genutil/client/testutil"
-	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
+	"github.com/aliworkshop/terra-sdk/client"
+	"github.com/aliworkshop/terra-sdk/client/flags"
+	"github.com/aliworkshop/terra-sdk/server"
+	"github.com/aliworkshop/terra-sdk/simapp"
+	banktypes "github.com/aliworkshop/terra-sdk/x/bank/types"
+	genutiltest "github.com/aliworkshop/terra-sdk/x/genutil/client/testutil"
+	genutiltypes "github.com/aliworkshop/terra-sdk/x/genutil/types"
 )
 
 func Test_TestnetCmd(t *testing.T) {

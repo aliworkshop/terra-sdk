@@ -8,14 +8,14 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/slashing/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/aliworkshop/terra-sdk/crypto/keys/ed25519"
+	"github.com/aliworkshop/terra-sdk/crypto/keys/secp256k1"
+	"github.com/aliworkshop/terra-sdk/simapp"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	authtypes "github.com/aliworkshop/terra-sdk/x/auth/types"
+	banktypes "github.com/aliworkshop/terra-sdk/x/bank/types"
+	"github.com/aliworkshop/terra-sdk/x/slashing/types"
+	stakingtypes "github.com/aliworkshop/terra-sdk/x/staking/types"
 )
 
 var (

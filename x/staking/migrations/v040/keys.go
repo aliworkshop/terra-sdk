@@ -1,5 +1,5 @@
 // Package v040 is copy-pasted from:
-// https://github.com/cosmos/cosmos-sdk/blob/v0.41.0/x/staking/types/keys.go
+// https://github.com/aliworkshop/terra-sdk/blob/v0.41.0/x/staking/types/keys.go
 package v040
 
 import (
@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
-	v040auth "github.com/cosmos/cosmos-sdk/x/auth/migrations/v040"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	"github.com/aliworkshop/terra-sdk/types/kv"
+	v040auth "github.com/aliworkshop/terra-sdk/x/auth/migrations/v040"
+	"github.com/aliworkshop/terra-sdk/x/staking/types"
 )
 
 const (

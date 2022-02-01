@@ -3,15 +3,15 @@ package middleware
 import (
 	"context"
 
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/aliworkshop/terra-sdk/codec/legacy"
+	"github.com/aliworkshop/terra-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/aliworkshop/terra-sdk/crypto/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	sdkerrors "github.com/aliworkshop/terra-sdk/types/errors"
+	"github.com/aliworkshop/terra-sdk/types/tx"
+	"github.com/aliworkshop/terra-sdk/types/tx/signing"
+	"github.com/aliworkshop/terra-sdk/x/auth/migrations/legacytx"
+	authsigning "github.com/aliworkshop/terra-sdk/x/auth/signing"
 	abci "github.com/tendermint/tendermint/abci/types"
 )
 

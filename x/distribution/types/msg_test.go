@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
 )
 
 // test ValidateBasic for MsgSetWithdrawAddress

@@ -6,7 +6,7 @@ import "google/protobuf/timestamp.proto";
 import "google/protobuf/duration.proto";
 import "cosmos/orm/v1alpha1/orm.proto";
 
-option go_package = "github.com/cosmos/cosmos-sdk/orm/internal/testpb";
+option go_package = "github.com/aliworkshop/terra-sdk/orm/internal/testpb";
 
 message ExampleTable {
   option (cosmos.orm.v1alpha1.table) = {

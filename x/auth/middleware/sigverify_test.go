@@ -3,22 +3,22 @@ package middleware_test
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256r1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/crypto/types/multisig"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/middleware"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/aliworkshop/terra-sdk/client"
+	"github.com/aliworkshop/terra-sdk/codec/legacy"
+	"github.com/aliworkshop/terra-sdk/crypto/keys/ed25519"
+	kmultisig "github.com/aliworkshop/terra-sdk/crypto/keys/multisig"
+	"github.com/aliworkshop/terra-sdk/crypto/keys/secp256k1"
+	"github.com/aliworkshop/terra-sdk/crypto/keys/secp256r1"
+	cryptotypes "github.com/aliworkshop/terra-sdk/crypto/types"
+	"github.com/aliworkshop/terra-sdk/crypto/types/multisig"
+	"github.com/aliworkshop/terra-sdk/simapp"
+	"github.com/aliworkshop/terra-sdk/testutil/testdata"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	"github.com/aliworkshop/terra-sdk/types/tx"
+	"github.com/aliworkshop/terra-sdk/types/tx/signing"
+	"github.com/aliworkshop/terra-sdk/x/auth/middleware"
+	"github.com/aliworkshop/terra-sdk/x/auth/migrations/legacytx"
+	"github.com/aliworkshop/terra-sdk/x/auth/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 )
 
@@ -197,10 +197,10 @@ func (s *MWTestSuite) TestSigVerification() {
 
 // This test is exactly like the one above, but we set the codec explicitly to
 // Amino.
-// Once https://github.com/cosmos/cosmos-sdk/issues/6190 is in, we can remove
+// Once https://github.com/aliworkshop/terra-sdk/issues/6190 is in, we can remove
 // this, since it'll be handled by the test matrix.
 // In the meantime, we want to make double-sure amino compatibility works.
-// ref: https://github.com/cosmos/cosmos-sdk/issues/7229
+// ref: https://github.com/aliworkshop/terra-sdk/issues/7229
 func (s *MWTestSuite) TestSigVerification_ExplicitAmino() {
 	ctx := s.SetupTest(true)
 	ctx = ctx.WithBlockHeight(1)

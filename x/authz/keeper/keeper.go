@@ -8,14 +8,14 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	"github.com/cosmos/cosmos-sdk/x/auth/middleware"
-	"github.com/cosmos/cosmos-sdk/x/authz"
+	"github.com/aliworkshop/terra-sdk/codec"
+	codectypes "github.com/aliworkshop/terra-sdk/codec/types"
+	storetypes "github.com/aliworkshop/terra-sdk/store/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	sdkerrors "github.com/aliworkshop/terra-sdk/types/errors"
+	authkeeper "github.com/aliworkshop/terra-sdk/x/auth/keeper"
+	"github.com/aliworkshop/terra-sdk/x/auth/middleware"
+	"github.com/aliworkshop/terra-sdk/x/authz"
 )
 
 type Keeper struct {

@@ -3,7 +3,7 @@ package ormtable
 import (
 	"context"
 
-	"github.com/cosmos/cosmos-sdk/orm/model/kv"
+	"github.com/aliworkshop/terra-sdk/orm/model/kv"
 )
 
 // ReadBackend defines the type used for read-only ORM operations.

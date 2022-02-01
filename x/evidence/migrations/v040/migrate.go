@@ -3,9 +3,9 @@ package v040
 import (
 	"fmt"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	v038evidence "github.com/cosmos/cosmos-sdk/x/evidence/migrations/v038"
-	v040evidence "github.com/cosmos/cosmos-sdk/x/evidence/types"
+	codectypes "github.com/aliworkshop/terra-sdk/codec/types"
+	v038evidence "github.com/aliworkshop/terra-sdk/x/evidence/migrations/v038"
+	v040evidence "github.com/aliworkshop/terra-sdk/x/evidence/types"
 )
 
 func migrateEvidence(oldEvidence v038evidence.Evidence) *codectypes.Any {

@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/testutil/cli"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	client "github.com/cosmos/cosmos-sdk/x/group/client/cli"
+	"github.com/aliworkshop/terra-sdk/crypto/keys/ed25519"
+	"github.com/aliworkshop/terra-sdk/testutil/cli"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	"github.com/aliworkshop/terra-sdk/x/group"
+	client "github.com/aliworkshop/terra-sdk/x/group/client/cli"
 
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 )

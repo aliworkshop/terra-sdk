@@ -8,20 +8,20 @@ import (
 
 	gogotypes "github.com/gogo/protobuf/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/errors"
-	"github.com/cosmos/cosmos-sdk/x/group/internal/math"
-	"github.com/cosmos/cosmos-sdk/x/group/internal/orm"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	"github.com/aliworkshop/terra-sdk/types/address"
+	sdkerrors "github.com/aliworkshop/terra-sdk/types/errors"
+	authtypes "github.com/aliworkshop/terra-sdk/x/auth/types"
+	"github.com/aliworkshop/terra-sdk/x/group"
+	"github.com/aliworkshop/terra-sdk/x/group/errors"
+	"github.com/aliworkshop/terra-sdk/x/group/internal/math"
+	"github.com/aliworkshop/terra-sdk/x/group/internal/orm"
 )
 
 var _ group.MsgServer = Keeper{}
 
 // TODO: Revisit this once we have propoer gas fee framework.
-// Tracking issues https://github.com/cosmos/cosmos-sdk/issues/9054, https://github.com/cosmos/cosmos-sdk/discussions/9072
+// Tracking issues https://github.com/aliworkshop/terra-sdk/issues/9054, https://github.com/aliworkshop/terra-sdk/discussions/9072
 const gasCostPerIteration = uint64(20)
 
 func (k Keeper) CreateGroup(goCtx context.Context, req *group.MsgCreateGroup) (*group.MsgCreateGroupResponse, error) {

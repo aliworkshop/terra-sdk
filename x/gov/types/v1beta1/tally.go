@@ -3,7 +3,7 @@ package v1beta1
 import (
 	"sigs.k8s.io/yaml"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
 )
 
 // ValidatorGovInfo used for tallying

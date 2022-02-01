@@ -11,9 +11,9 @@ import (
 	"github.com/tendermint/tendermint/crypto/xsalsa20symmetric"
 	"golang.org/x/crypto/openpgp/armor" // nolint: staticcheck
 
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/aliworkshop/terra-sdk/codec/legacy"
+	cryptotypes "github.com/aliworkshop/terra-sdk/crypto/types"
+	sdkerrors "github.com/aliworkshop/terra-sdk/types/errors"
 )
 
 const (

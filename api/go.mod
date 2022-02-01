@@ -1,6 +1,6 @@
-module github.com/cosmos/cosmos-sdk/api
+module github.com/aliworkshop/terra-sdk/api
 
-go 1.17
+go 1.16
 
 require (
 	github.com/cosmos/cosmos-proto v1.0.0-alpha6

@@ -1,8 +1,8 @@
 package root
 
 import (
-	"github.com/cosmos/cosmos-sdk/store/cachekv"
-	types "github.com/cosmos/cosmos-sdk/store/v2"
+	"github.com/aliworkshop/terra-sdk/store/cachekv"
+	types "github.com/aliworkshop/terra-sdk/store/v2"
 )
 
 // GetKVStore implements BasicMultiStore.

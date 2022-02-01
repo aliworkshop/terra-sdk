@@ -15,16 +15,16 @@ import (
 	"gotest.tools/v3/golden"
 	"pgregory.net/rapid"
 
-	queryv1beta1 "github.com/cosmos/cosmos-sdk/api/cosmos/base/query/v1beta1"
+	queryv1beta1 "github.com/aliworkshop/terra-sdk/api/cosmos/base/query/v1beta1"
 	sdkerrors "github.com/cosmos/cosmos-sdk/errors"
-	"github.com/cosmos/cosmos-sdk/orm/encoding/ormkv"
-	"github.com/cosmos/cosmos-sdk/orm/internal/testkv"
-	"github.com/cosmos/cosmos-sdk/orm/internal/testpb"
-	"github.com/cosmos/cosmos-sdk/orm/internal/testutil"
-	"github.com/cosmos/cosmos-sdk/orm/model/kv"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormlist"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormtable"
-	"github.com/cosmos/cosmos-sdk/orm/types/ormerrors"
+	"github.com/aliworkshop/terra-sdk/orm/encoding/ormkv"
+	"github.com/aliworkshop/terra-sdk/orm/internal/testkv"
+	"github.com/aliworkshop/terra-sdk/orm/internal/testpb"
+	"github.com/aliworkshop/terra-sdk/orm/internal/testutil"
+	"github.com/aliworkshop/terra-sdk/orm/model/kv"
+	"github.com/aliworkshop/terra-sdk/orm/model/ormlist"
+	"github.com/aliworkshop/terra-sdk/orm/model/ormtable"
+	"github.com/aliworkshop/terra-sdk/orm/types/ormerrors"
 )
 
 func TestScenario(t *testing.T) {

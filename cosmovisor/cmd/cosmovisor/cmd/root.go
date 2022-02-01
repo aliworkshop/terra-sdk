@@ -3,7 +3,7 @@ package cmd
 import (
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/cosmovisor"
+	"github.com/aliworkshop/terra-sdk/cosmovisor"
 )
 
 // RunCosmovisorCommand executes the desired cosmovisor command.

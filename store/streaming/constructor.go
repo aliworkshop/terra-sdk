@@ -5,11 +5,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	serverTypes "github.com/cosmos/cosmos-sdk/server/types"
-	"github.com/cosmos/cosmos-sdk/store/streaming/file"
-	"github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/aliworkshop/terra-sdk/baseapp"
+	"github.com/aliworkshop/terra-sdk/codec"
+	serverTypes "github.com/aliworkshop/terra-sdk/server/types"
+	"github.com/aliworkshop/terra-sdk/store/streaming/file"
+	"github.com/aliworkshop/terra-sdk/store/types"
 
 	"github.com/spf13/cast"
 )

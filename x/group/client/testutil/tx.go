@@ -5,20 +5,20 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/cli"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/client/testutil"
+	"github.com/aliworkshop/terra-sdk/client/flags"
+	"github.com/aliworkshop/terra-sdk/crypto/hd"
+	"github.com/aliworkshop/terra-sdk/crypto/keyring"
+	"github.com/aliworkshop/terra-sdk/testutil"
+	"github.com/aliworkshop/terra-sdk/testutil/cli"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	banktestutil "github.com/aliworkshop/terra-sdk/x/bank/client/testutil"
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	client "github.com/cosmos/cosmos-sdk/x/group/client/cli"
+	"github.com/aliworkshop/terra-sdk/testutil/network"
+	"github.com/aliworkshop/terra-sdk/x/group"
+	client "github.com/aliworkshop/terra-sdk/x/group/client/cli"
 )
 
 type IntegrationTestSuite struct {

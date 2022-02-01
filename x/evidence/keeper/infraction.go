@@ -3,9 +3,9 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
 
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
+	"github.com/aliworkshop/terra-sdk/x/evidence/types"
 )
 
 // HandleEquivocationEvidence implements an equivocation evidence handler. Assuming the

@@ -13,9 +13,9 @@ import (
 
 	"github.com/rs/zerolog"
 
-	cverrors "github.com/cosmos/cosmos-sdk/cosmovisor/errors"
-	upgradekeeper "github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	cverrors "github.com/aliworkshop/terra-sdk/cosmovisor/errors"
+	upgradekeeper "github.com/aliworkshop/terra-sdk/x/upgrade/keeper"
+	upgradetypes "github.com/aliworkshop/terra-sdk/x/upgrade/types"
 )
 
 // environment variable names

@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/aliworkshop/terra-sdk/baseapp"
+	"github.com/aliworkshop/terra-sdk/codec"
+	simappparams "github.com/aliworkshop/terra-sdk/simapp/params"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	simtypes "github.com/aliworkshop/terra-sdk/types/simulation"
+	"github.com/aliworkshop/terra-sdk/x/simulation"
+	"github.com/aliworkshop/terra-sdk/x/staking/keeper"
+	"github.com/aliworkshop/terra-sdk/x/staking/types"
 )
 
 // Simulation operation weights constants

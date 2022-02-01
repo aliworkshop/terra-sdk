@@ -7,11 +7,11 @@ package v036
 import (
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/bech32/legacybech32"
-	v034staking "github.com/cosmos/cosmos-sdk/x/staking/migrations/v034"
+	"github.com/aliworkshop/terra-sdk/codec/legacy"
+	cryptotypes "github.com/aliworkshop/terra-sdk/crypto/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	"github.com/aliworkshop/terra-sdk/types/bech32/legacybech32"
+	v034staking "github.com/aliworkshop/terra-sdk/x/staking/migrations/v034"
 )
 
 const (

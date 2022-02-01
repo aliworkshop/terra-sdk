@@ -7,15 +7,15 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/version"
-	govutils "github.com/cosmos/cosmos-sdk/x/gov/client/utils"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta2"
+	"github.com/aliworkshop/terra-sdk/client"
+	"github.com/aliworkshop/terra-sdk/client/flags"
+	"github.com/aliworkshop/terra-sdk/client/tx"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	"github.com/aliworkshop/terra-sdk/version"
+	govutils "github.com/aliworkshop/terra-sdk/x/gov/client/utils"
+	"github.com/aliworkshop/terra-sdk/x/gov/types"
+	"github.com/aliworkshop/terra-sdk/x/gov/types/v1beta1"
+	"github.com/aliworkshop/terra-sdk/x/gov/types/v1beta2"
 )
 
 // Proposal flags
@@ -62,7 +62,7 @@ func NewTxCmd(propCmds []*cobra.Command) *cobra.Command {
 	}
 
 	// TODO Add CLI for new submit proposal
-	// https://github.com/cosmos/cosmos-sdk/issues/10952
+	// https://github.com/aliworkshop/terra-sdk/issues/10952
 	cmdSubmitProp := NewCmdSubmitProposal()
 	for _, propCmd := range propCmds {
 		flags.AddTxFlagsToCmd(propCmd)

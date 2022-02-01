@@ -1,10 +1,10 @@
-module github.com/cosmos/cosmos-sdk/orm
+module github.com/aliworkshop/terra-sdk/orm
 
-go 1.17
+go 1.16
 
 require (
 	github.com/cosmos/cosmos-proto v1.0.0-alpha6
-	github.com/cosmos/cosmos-sdk/api v0.1.0-alpha3
+	github.com/aliworkshop/terra-sdk/api v0.1.0-alpha3
 	github.com/cosmos/cosmos-sdk/errors v1.0.0-beta.2
 	github.com/stretchr/testify v1.7.0
 	github.com/tendermint/tm-db v0.6.6

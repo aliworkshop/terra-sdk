@@ -3,10 +3,10 @@ package tx
 import (
 	context "context"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	codectypes "github.com/aliworkshop/terra-sdk/codec/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
 )
 
 // RequestSimulateTx is the request type for the tx.Handler.RequestSimulateTx

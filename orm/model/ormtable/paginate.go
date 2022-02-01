@@ -6,8 +6,8 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	queryv1beta1 "github.com/cosmos/cosmos-sdk/api/cosmos/base/query/v1beta1"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormlist"
+	queryv1beta1 "github.com/aliworkshop/terra-sdk/api/cosmos/base/query/v1beta1"
+	"github.com/aliworkshop/terra-sdk/orm/model/ormlist"
 )
 
 // PaginationRequest is a request to the Paginate function and extends the

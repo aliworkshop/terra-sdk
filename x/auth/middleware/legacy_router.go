@@ -3,7 +3,7 @@ package middleware
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
 )
 
 type LegacyRouter struct {

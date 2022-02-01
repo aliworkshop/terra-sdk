@@ -1,11 +1,11 @@
 // Package v040 is copy-pasted from:
-// https://github.com/cosmos/cosmos-sdk/blob/v0.41.0/x/bank/types/key.go
+// https://github.com/aliworkshop/terra-sdk/blob/v0.41.0/x/bank/types/key.go
 package v040
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
-	v040auth "github.com/cosmos/cosmos-sdk/x/auth/migrations/v040"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	"github.com/aliworkshop/terra-sdk/types/kv"
+	v040auth "github.com/aliworkshop/terra-sdk/x/auth/migrations/v040"
 )
 
 const (

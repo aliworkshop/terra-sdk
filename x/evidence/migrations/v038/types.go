@@ -11,8 +11,8 @@ import (
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 	"sigs.k8s.io/yaml"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/aliworkshop/terra-sdk/codec"
+	sdk "github.com/aliworkshop/terra-sdk/types"
 )
 
 // Default parameter values

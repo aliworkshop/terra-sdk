@@ -8,11 +8,11 @@ import (
 	"github.com/stretchr/testify/require"
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
+	"github.com/aliworkshop/terra-sdk/codec"
+	codectypes "github.com/aliworkshop/terra-sdk/codec/types"
+	"github.com/aliworkshop/terra-sdk/crypto/keys/ed25519"
+	"github.com/aliworkshop/terra-sdk/x/evidence/exported"
+	"github.com/aliworkshop/terra-sdk/x/evidence/types"
 )
 
 func TestDefaultGenesisState(t *testing.T) {

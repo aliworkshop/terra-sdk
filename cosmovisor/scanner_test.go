@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	upgradetypes "github.com/aliworkshop/terra-sdk/x/upgrade/types"
 )
 
 func TestParseUpgradeInfoFile(t *testing.T) {

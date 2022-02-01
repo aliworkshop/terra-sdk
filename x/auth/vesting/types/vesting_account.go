@@ -6,10 +6,10 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	vestexported "github.com/cosmos/cosmos-sdk/x/auth/vesting/exported"
+	cryptotypes "github.com/aliworkshop/terra-sdk/crypto/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	authtypes "github.com/aliworkshop/terra-sdk/x/auth/types"
+	vestexported "github.com/aliworkshop/terra-sdk/x/auth/vesting/exported"
 )
 
 // Compile-time type assertions

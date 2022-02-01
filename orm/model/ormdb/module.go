@@ -8,15 +8,15 @@ import (
 
 	"google.golang.org/protobuf/reflect/protodesc"
 
-	"github.com/cosmos/cosmos-sdk/orm/encoding/encodeutil"
+	"github.com/aliworkshop/terra-sdk/orm/encoding/encodeutil"
 
 	"google.golang.org/protobuf/proto"
 
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/cosmos/cosmos-sdk/orm/encoding/ormkv"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormtable"
-	"github.com/cosmos/cosmos-sdk/orm/types/ormerrors"
+	"github.com/aliworkshop/terra-sdk/orm/encoding/ormkv"
+	"github.com/aliworkshop/terra-sdk/orm/model/ormtable"
+	"github.com/aliworkshop/terra-sdk/orm/types/ormerrors"
 )
 
 // ModuleSchema describes the ORM schema for a module.

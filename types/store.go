@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	"github.com/aliworkshop/terra-sdk/store/types"
+	"github.com/aliworkshop/terra-sdk/types/kv"
 )
 
 type (

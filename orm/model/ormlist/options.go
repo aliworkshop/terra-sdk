@@ -2,8 +2,8 @@
 package ormlist
 
 import (
-	"github.com/cosmos/cosmos-sdk/orm/encoding/encodeutil"
-	"github.com/cosmos/cosmos-sdk/orm/internal/listinternal"
+	"github.com/aliworkshop/terra-sdk/orm/encoding/encodeutil"
+	"github.com/aliworkshop/terra-sdk/orm/internal/listinternal"
 )
 
 // Option represents a list option.

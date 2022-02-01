@@ -7,21 +7,21 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
+	authsigning "github.com/aliworkshop/terra-sdk/x/auth/signing"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/aliworkshop/terra-sdk/client"
+	"github.com/aliworkshop/terra-sdk/codec"
+	codectypes "github.com/aliworkshop/terra-sdk/codec/types"
 
 	rosettatypes "github.com/coinbase/rosetta-sdk-go/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/server/rosetta"
-	crgerrs "github.com/cosmos/cosmos-sdk/server/rosetta/lib/errors"
+	"github.com/aliworkshop/terra-sdk/server/rosetta"
+	crgerrs "github.com/aliworkshop/terra-sdk/server/rosetta/lib/errors"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
-	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	authtx "github.com/aliworkshop/terra-sdk/x/auth/tx"
+	bank "github.com/aliworkshop/terra-sdk/x/bank/types"
 )
 
 type ConverterTestSuite struct {

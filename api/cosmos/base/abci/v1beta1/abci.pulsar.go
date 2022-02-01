@@ -3,7 +3,7 @@ package abciv1beta1
 import (
 	fmt "fmt"
 	runtime "github.com/cosmos/cosmos-proto/runtime"
-	abci "github.com/cosmos/cosmos-sdk/api/tendermint/abci"
+	abci "github.com/aliworkshop/terra-sdk/api/tendermint/abci"
 	_ "github.com/gogo/protobuf/gogoproto"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoiface "google.golang.org/protobuf/runtime/protoiface"

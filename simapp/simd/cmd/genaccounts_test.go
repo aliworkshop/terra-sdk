@@ -3,24 +3,24 @@ package cmd_test
 import (
 	"context"
 	"fmt"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/aliworkshop/terra-sdk/crypto/hd"
+	"github.com/aliworkshop/terra-sdk/crypto/keyring"
+	sdk "github.com/aliworkshop/terra-sdk/types"
 	"testing"
 
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	simcmd "github.com/cosmos/cosmos-sdk/simapp/simd/cmd"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	genutiltest "github.com/cosmos/cosmos-sdk/x/genutil/client/testutil"
+	"github.com/aliworkshop/terra-sdk/client"
+	"github.com/aliworkshop/terra-sdk/client/flags"
+	"github.com/aliworkshop/terra-sdk/server"
+	"github.com/aliworkshop/terra-sdk/simapp"
+	simcmd "github.com/aliworkshop/terra-sdk/simapp/simd/cmd"
+	"github.com/aliworkshop/terra-sdk/testutil/testdata"
+	"github.com/aliworkshop/terra-sdk/types/module"
+	"github.com/aliworkshop/terra-sdk/x/genutil"
+	genutiltest "github.com/aliworkshop/terra-sdk/x/genutil/client/testutil"
 )
 
 var testMbm = module.NewBasicManager(genutil.AppModuleBasic{})

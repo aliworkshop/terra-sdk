@@ -3,13 +3,13 @@ package testkv
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/orm/internal/stablejson"
+	"github.com/aliworkshop/terra-sdk/orm/internal/stablejson"
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/orm/encoding/ormkv"
-	"github.com/cosmos/cosmos-sdk/orm/model/kv"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormtable"
+	"github.com/aliworkshop/terra-sdk/orm/encoding/ormkv"
+	"github.com/aliworkshop/terra-sdk/orm/model/kv"
+	"github.com/aliworkshop/terra-sdk/orm/model/ormtable"
 )
 
 // Debugger is an interface that handles debug info from the debug store wrapper.

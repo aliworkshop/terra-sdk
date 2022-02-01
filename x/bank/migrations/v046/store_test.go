@@ -5,14 +5,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	v043 "github.com/cosmos/cosmos-sdk/x/bank/migrations/v043"
-	v046 "github.com/cosmos/cosmos-sdk/x/bank/migrations/v046"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/aliworkshop/terra-sdk/simapp"
+	"github.com/aliworkshop/terra-sdk/store/prefix"
+	"github.com/aliworkshop/terra-sdk/testutil"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	"github.com/aliworkshop/terra-sdk/types/address"
+	v043 "github.com/aliworkshop/terra-sdk/x/bank/migrations/v043"
+	v046 "github.com/aliworkshop/terra-sdk/x/bank/migrations/v046"
+	"github.com/aliworkshop/terra-sdk/x/bank/types"
 )
 
 func TestMigrateStore(t *testing.T) {

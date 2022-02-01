@@ -30,7 +30,7 @@ cd ..
 (cd testutil/testdata; buf generate)
 
 # move proto files to the right places
-cp -r github.com/cosmos/cosmos-sdk/* ./
+cp -r github.com/aliworkshop/terra-sdk/* ./
 rm -rf github.com
 
 go mod tidy

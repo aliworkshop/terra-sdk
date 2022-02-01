@@ -3,9 +3,9 @@ package cli
 import (
 	"io/ioutil"
 
-	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/aliworkshop/terra-sdk/client"
 
-	"github.com/cosmos/cosmos-sdk/x/group"
+	"github.com/aliworkshop/terra-sdk/x/group"
 )
 
 func parseMembers(clientCtx client.Context, membersFile string) ([]group.Member, error) {

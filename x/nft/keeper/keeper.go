@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/x/nft"
+	"github.com/aliworkshop/terra-sdk/codec"
+	storetypes "github.com/aliworkshop/terra-sdk/store/types"
+	"github.com/aliworkshop/terra-sdk/x/nft"
 )
 
 // Keeper of the nft store

@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/aliworkshop/terra-sdk/crypto/keys/secp256k1"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	banktypes "github.com/aliworkshop/terra-sdk/x/bank/types"
 	"github.com/stretchr/testify/require"
 )
 

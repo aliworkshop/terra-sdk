@@ -6,7 +6,7 @@ import "cosmos/base/v1beta1/coin.proto";
 import "cosmos/bank/v1beta1/bank.proto";
 import "cosmos_proto/cosmos.proto";
 
-option go_package = "github.com/cosmos/cosmos-sdk/x/bank/types";
+option go_package = "github.com/aliworkshop/terra-sdk/x/bank/types";
 
 // Msg defines the bank Msg service.
 service Msg {
@@ -25,7 +25,7 @@ message MsgSend {
   string   from_address                    = 1 [(cosmos_proto.scalar) = "cosmos.AddressString"];
   string   to_address                      = 2 [(cosmos_proto.scalar) = "cosmos.AddressString"];
   repeated cosmos.base.v1beta1.Coin amount = 3
-      [(gogoproto.nullable) = false, (gogoproto.castrepeated) = "github.com/cosmos/cosmos-sdk/types.Coins"];
+      [(gogoproto.nullable) = false, (gogoproto.castrepeated) = "github.com/aliworkshop/terra-sdk/types.Coins"];
 }
 
 // MsgSendResponse defines the Msg/Send response type.

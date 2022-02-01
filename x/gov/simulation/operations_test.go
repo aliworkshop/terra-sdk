@@ -10,16 +10,16 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	"github.com/cosmos/cosmos-sdk/x/gov/simulation"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta2"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	"github.com/aliworkshop/terra-sdk/simapp"
+	simappparams "github.com/aliworkshop/terra-sdk/simapp/params"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	simtypes "github.com/aliworkshop/terra-sdk/types/simulation"
+	"github.com/aliworkshop/terra-sdk/x/bank/testutil"
+	"github.com/aliworkshop/terra-sdk/x/gov/simulation"
+	"github.com/aliworkshop/terra-sdk/x/gov/types"
+	"github.com/aliworkshop/terra-sdk/x/gov/types/v1beta1"
+	"github.com/aliworkshop/terra-sdk/x/gov/types/v1beta2"
+	minttypes "github.com/aliworkshop/terra-sdk/x/mint/types"
 )
 
 type MockWeightedProposalContent struct {

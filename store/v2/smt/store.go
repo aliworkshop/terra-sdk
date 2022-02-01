@@ -5,7 +5,7 @@ import (
 	"errors"
 
 	dbm "github.com/cosmos/cosmos-sdk/db"
-	"github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/aliworkshop/terra-sdk/store/types"
 
 	"github.com/lazyledger/smt"
 	tmcrypto "github.com/tendermint/tendermint/proto/tendermint/crypto"

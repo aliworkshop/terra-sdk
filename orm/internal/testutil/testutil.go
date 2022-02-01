@@ -10,9 +10,9 @@ import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"pgregory.net/rapid"
 
-	"github.com/cosmos/cosmos-sdk/orm/encoding/ormfield"
-	"github.com/cosmos/cosmos-sdk/orm/encoding/ormkv"
-	"github.com/cosmos/cosmos-sdk/orm/internal/testpb"
+	"github.com/aliworkshop/terra-sdk/orm/encoding/ormfield"
+	"github.com/aliworkshop/terra-sdk/orm/encoding/ormkv"
+	"github.com/aliworkshop/terra-sdk/orm/internal/testpb"
 )
 
 // TestFieldSpec defines a test field against the testpb.ExampleTable message.

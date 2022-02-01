@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/cosmos/cosmos-sdk/x/params/client/cli"
+	clitestutil "github.com/aliworkshop/terra-sdk/testutil/cli"
+	"github.com/aliworkshop/terra-sdk/testutil/network"
+	"github.com/aliworkshop/terra-sdk/x/params/client/cli"
 )
 
 type IntegrationTestSuite struct {

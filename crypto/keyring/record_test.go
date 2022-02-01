@@ -4,14 +4,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/aliworkshop/terra-sdk/codec"
 	"github.com/stretchr/testify/suite"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
+	codectypes "github.com/aliworkshop/terra-sdk/codec/types"
+	"github.com/aliworkshop/terra-sdk/crypto/hd"
+	"github.com/aliworkshop/terra-sdk/crypto/keys/ed25519"
 
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	cryptotypes "github.com/aliworkshop/terra-sdk/crypto/types"
 )
 
 type RecordTestSuite struct {

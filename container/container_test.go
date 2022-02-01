@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/container"
+	"github.com/aliworkshop/terra-sdk/container"
 )
 
 type KVStoreKey struct {

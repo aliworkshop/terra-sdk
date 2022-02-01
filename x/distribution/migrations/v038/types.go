@@ -4,9 +4,9 @@
 package v038
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v034distr "github.com/cosmos/cosmos-sdk/x/distribution/migrations/v034"
-	v036distr "github.com/cosmos/cosmos-sdk/x/distribution/migrations/v036"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	v034distr "github.com/aliworkshop/terra-sdk/x/distribution/migrations/v034"
+	v036distr "github.com/aliworkshop/terra-sdk/x/distribution/migrations/v036"
 )
 
 // DONTCOVER

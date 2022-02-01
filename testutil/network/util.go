@@ -13,13 +13,13 @@ import (
 	"github.com/tendermint/tendermint/rpc/client/local"
 	"github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/server/api"
-	servergrpc "github.com/cosmos/cosmos-sdk/server/grpc"
-	srvtypes "github.com/cosmos/cosmos-sdk/server/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
+	"github.com/aliworkshop/terra-sdk/server/api"
+	servergrpc "github.com/aliworkshop/terra-sdk/server/grpc"
+	srvtypes "github.com/aliworkshop/terra-sdk/server/types"
+	authtypes "github.com/aliworkshop/terra-sdk/x/auth/types"
+	banktypes "github.com/aliworkshop/terra-sdk/x/bank/types"
+	"github.com/aliworkshop/terra-sdk/x/genutil"
+	genutiltypes "github.com/aliworkshop/terra-sdk/x/genutil/types"
 )
 
 func startInProcess(cfg Config, val *Validator) error {

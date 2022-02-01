@@ -19,16 +19,16 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	"google.golang.org/grpc"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/server/api"
-	"github.com/cosmos/cosmos-sdk/server/config"
-	servergrpc "github.com/cosmos/cosmos-sdk/server/grpc"
-	"github.com/cosmos/cosmos-sdk/server/rosetta"
-	crgserver "github.com/cosmos/cosmos-sdk/server/rosetta/lib/server"
-	"github.com/cosmos/cosmos-sdk/server/types"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/aliworkshop/terra-sdk/client"
+	"github.com/aliworkshop/terra-sdk/client/flags"
+	"github.com/aliworkshop/terra-sdk/codec"
+	"github.com/aliworkshop/terra-sdk/server/api"
+	"github.com/aliworkshop/terra-sdk/server/config"
+	servergrpc "github.com/aliworkshop/terra-sdk/server/grpc"
+	"github.com/aliworkshop/terra-sdk/server/rosetta"
+	crgserver "github.com/aliworkshop/terra-sdk/server/rosetta/lib/server"
+	"github.com/aliworkshop/terra-sdk/server/types"
+	storetypes "github.com/aliworkshop/terra-sdk/store/types"
 )
 
 // Tendermint full-node start flags

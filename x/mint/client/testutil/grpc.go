@@ -3,13 +3,13 @@ package testutil
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
+	"github.com/aliworkshop/terra-sdk/testutil"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	grpctypes "github.com/aliworkshop/terra-sdk/types/grpc"
 
 	"github.com/gogo/protobuf/proto"
 
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	minttypes "github.com/aliworkshop/terra-sdk/x/mint/types"
 )
 
 func (s *IntegrationTestSuite) TestQueryGRPC() {

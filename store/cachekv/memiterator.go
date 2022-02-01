@@ -5,7 +5,7 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/aliworkshop/terra-sdk/store/types"
 )
 
 // Iterates over iterKVCache items.

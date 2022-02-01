@@ -4,10 +4,10 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/cosmos/cosmos-sdk/orm/encoding/ormkv"
-	"github.com/cosmos/cosmos-sdk/orm/internal/listinternal"
-	"github.com/cosmos/cosmos-sdk/orm/model/kv"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormlist"
+	"github.com/aliworkshop/terra-sdk/orm/encoding/ormkv"
+	"github.com/aliworkshop/terra-sdk/orm/internal/listinternal"
+	"github.com/aliworkshop/terra-sdk/orm/model/kv"
+	"github.com/aliworkshop/terra-sdk/orm/model/ormlist"
 )
 
 // Iterator defines the interface for iterating over indexes.

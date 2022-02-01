@@ -13,14 +13,14 @@ import (
 	"github.com/stretchr/testify/require"
 	db "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	"github.com/cosmos/cosmos-sdk/snapshots/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
+	"github.com/aliworkshop/terra-sdk/snapshots"
+	"github.com/aliworkshop/terra-sdk/snapshots/types"
+	"github.com/aliworkshop/terra-sdk/testutil"
 )
 
 func setupStore(t *testing.T) *snapshots.Store {
 	// os.MkdirTemp() is used instead of testing.T.TempDir()
-	// see https://github.com/cosmos/cosmos-sdk/pull/8475 for
+	// see https://github.com/aliworkshop/terra-sdk/pull/8475 for
 	// this change's rationale.
 	tempdir, err := os.MkdirTemp("", "")
 	require.NoError(t, err)

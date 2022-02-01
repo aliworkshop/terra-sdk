@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	gov "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	gov "github.com/aliworkshop/terra-sdk/x/gov/types/v1beta1"
 )
 
 const (

@@ -3,8 +3,8 @@ package types
 import (
 	fmt "fmt"
 	runtime "github.com/cosmos/cosmos-proto/runtime"
-	crypto "github.com/cosmos/cosmos-sdk/api/tendermint/crypto"
-	version "github.com/cosmos/cosmos-sdk/api/tendermint/version"
+	crypto "github.com/aliworkshop/terra-sdk/api/tendermint/crypto"
+	version "github.com/aliworkshop/terra-sdk/api/tendermint/version"
 	_ "github.com/gogo/protobuf/gogoproto"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoiface "google.golang.org/protobuf/runtime/protoiface"

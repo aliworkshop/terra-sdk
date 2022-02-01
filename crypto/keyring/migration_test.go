@@ -7,13 +7,13 @@ import (
 	"github.com/99designs/keyring"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
+	"github.com/aliworkshop/terra-sdk/codec/legacy"
+	"github.com/aliworkshop/terra-sdk/crypto/hd"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/aliworkshop/terra-sdk/crypto/keys/multisig"
+	"github.com/aliworkshop/terra-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/aliworkshop/terra-sdk/crypto/types"
+	sdkerrors "github.com/aliworkshop/terra-sdk/types/errors"
 )
 
 const n1 = "cosmos"

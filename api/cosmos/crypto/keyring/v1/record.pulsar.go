@@ -3,7 +3,7 @@ package keyringv1
 import (
 	fmt "fmt"
 	runtime "github.com/cosmos/cosmos-proto/runtime"
-	v1 "github.com/cosmos/cosmos-sdk/api/cosmos/crypto/hd/v1"
+	v1 "github.com/aliworkshop/terra-sdk/api/cosmos/crypto/hd/v1"
 	_ "github.com/gogo/protobuf/gogoproto"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoiface "google.golang.org/protobuf/runtime/protoiface"

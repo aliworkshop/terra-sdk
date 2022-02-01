@@ -9,8 +9,8 @@ import (
 	tmprototypes "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/aliworkshop/terra-sdk/baseapp"
+	sdk "github.com/aliworkshop/terra-sdk/types"
 )
 
 func TestGetBlockRentionHeight(t *testing.T) {
@@ -120,7 +120,7 @@ func TestGetBlockRentionHeight(t *testing.T) {
 }
 
 // Test and ensure that negative heights always cause errors.
-// See issue https://github.com/cosmos/cosmos-sdk/issues/7662.
+// See issue https://github.com/aliworkshop/terra-sdk/issues/7662.
 func TestBaseAppCreateQueryContextRejectsNegativeHeights(t *testing.T) {
 	t.Parallel()
 

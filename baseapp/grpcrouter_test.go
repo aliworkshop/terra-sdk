@@ -9,11 +9,11 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/aliworkshop/terra-sdk/baseapp"
+	"github.com/aliworkshop/terra-sdk/codec/types"
+	"github.com/aliworkshop/terra-sdk/simapp"
+	"github.com/aliworkshop/terra-sdk/testutil/testdata"
+	sdk "github.com/aliworkshop/terra-sdk/types"
 )
 
 func TestGRPCGatewayRouter(t *testing.T) {
@@ -77,7 +77,7 @@ func TestRegisterQueryServiceTwice(t *testing.T) {
 }
 
 // Tests that we don't have data races per
-// https://github.com/cosmos/cosmos-sdk/issues/10324
+// https://github.com/aliworkshop/terra-sdk/issues/10324
 // but with the same client connection being used concurrently.
 func TestQueryDataRaces_sameConnectionToSameHandler(t *testing.T) {
 	var mu sync.Mutex
@@ -98,7 +98,7 @@ func TestQueryDataRaces_sameConnectionToSameHandler(t *testing.T) {
 }
 
 // Tests that we don't have data races per
-// https://github.com/cosmos/cosmos-sdk/issues/10324
+// https://github.com/aliworkshop/terra-sdk/issues/10324
 // but with unique client connections requesting from the same handler concurrently.
 func TestQueryDataRaces_uniqueConnectionsToSameHandler(t *testing.T) {
 	// Return a new handler for every single call.

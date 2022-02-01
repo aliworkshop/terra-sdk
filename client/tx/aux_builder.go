@@ -3,13 +3,13 @@ package tx
 import (
 	"github.com/gogo/protobuf/proto"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
+	codectypes "github.com/aliworkshop/terra-sdk/codec/types"
+	cryptotypes "github.com/aliworkshop/terra-sdk/crypto/types"
+	sdk "github.com/aliworkshop/terra-sdk/types"
+	sdkerrors "github.com/aliworkshop/terra-sdk/types/errors"
+	"github.com/aliworkshop/terra-sdk/types/tx"
+	"github.com/aliworkshop/terra-sdk/types/tx/signing"
+	"github.com/aliworkshop/terra-sdk/x/auth/migrations/legacytx"
 )
 
 // AuxTxBuilder is a client-side builder for creating an AuxSignerData.
@@ -196,7 +196,7 @@ func (b *AuxTxBuilder) GetSignBytes() ([]byte, error) {
 				// Aux signer never signs over fee.
 				// For LEGACY_AMINO_JSON, we use the convention to sign
 				// over empty fees.
-				// ref: https://github.com/cosmos/cosmos-sdk/pull/10348
+				// ref: https://github.com/aliworkshop/terra-sdk/pull/10348
 				legacytx.StdFee{},
 				b.msgs, b.body.Memo, b.auxSignerData.SignDoc.Tip,
 			)

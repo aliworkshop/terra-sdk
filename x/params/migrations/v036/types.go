@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	v036gov "github.com/cosmos/cosmos-sdk/x/gov/migrations/v036"
+	"github.com/aliworkshop/terra-sdk/codec"
+	v036gov "github.com/aliworkshop/terra-sdk/x/gov/migrations/v036"
 )
 
 const (
